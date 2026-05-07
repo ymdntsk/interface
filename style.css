@@ -8,6 +8,7 @@ input:hover {
     background-color: #ff4343;
     color: #07050d;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 body {
