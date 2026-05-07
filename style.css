@@ -1,19 +1,132 @@
+
+
+h1 {
+    color: #ff4343;
+}
+
+input:hover {
+    background-color: #ff4343;
+    color: #07050d;
+    transition: 0.3s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    background-color: #211a36;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 0;
+}
+.h1 {
+    border: 0;
+    border-top: 5px solid #ff4343;
+}
+
+
+.Nivel {
+    padding: 9px;
+    background-color: #ff4343;
+    border-radius: 9px;
+}
+
+.h2 {
+    border: 0;
+    border-top: 5px solid #180c2b;
+}
+
+
 .progress-container {
-  width: 100%;
-  background-color: #141021;
-  border-radius: 8px;
+    width: 100%;
+    background-color: #211a36;
+    border-radius: 20px;
 }
 
 .progress-bar {
-  width: 40%; 
-  height: 30px;
-  background-color: #ff4343;
-  text-align: center;
-  line-height: 30px;
-  color: white;
-  border-radius: 8px;
+    width: 40%;
+    height: 40px;
+    background-color: #ff4343;
+    text-align: center;
+    line-height: 30px;
+
+    border-radius: 20px;
+
 }
 
-.Background{
-    
+.Background {
+    display: flex;
+    flex-direction: column;
+    max-width: 26%;
+    background-color: #07050d;
+    height: 100%;
+    padding: 50px;
+    gap: 15px;
+    border-radius: 15px;
 }
+
+.Nome {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.Estado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.b1 {
+    font-weight: 35;
+    width: 60vh;
+    padding: 20px;
+}
+
+.b2 {
+    font-weight: 35;
+    width: 25vh;
+    padding: 20px;
+}
+
+.Buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.Text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #0e0720;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    font-weight: 30;
+}
+
+.o1 {
+    color: gray;
+
+}
+
+.o2 {
+    color: #ff4343;
+}
+
+.o3 {
+    color: greenyellow;
+}
+
